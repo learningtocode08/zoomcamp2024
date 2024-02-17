@@ -32,10 +32,10 @@ SELECT
 from {{ source('staging', 'green_taxi_materialized_data') }}
 where vendorid is not null
 
-{% if var('is_test_run', default=true) %}
+-- {% if var('is_test_run', default=true) %}
 
-limit 100
+-- limit 100
 
-{% endif %}
+-- {% endif %}
 
 

@@ -8,3 +8,4 @@ sources:
     tables:
       - name: green_taxi_materialized_data
       - name: yellow_cab_data
+      - name: fhv_taxi_materialized_data
